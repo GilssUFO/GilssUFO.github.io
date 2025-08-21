@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css" />
+  <title>Portofolio Website</title>
+</head>
+<body>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <div class="nav-container">
+      <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+        <span>FARIS SYADDAD AL-MUTTAQIN</span>
+      </div>
+      <div class="links">
+        <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Home</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#About">About</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#Skills">Skills</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#Services">Services</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#Contact">Contact</a></div>
+      </div>
+      <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      <div class="dropdown">
+        <div class="links">
+          <a href="#">Home</a>
+          <a href="#About">About</a>
+          <a href="#Skills">Skills</a>
+          <a href="#Services">Services</a>
+          <a href="#Contact">Contact</a>
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section>
+    <div class="main-container">
+      <div class="image" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="3000">
+        <img src="asset/main.jpg" alt="foto Faris" />
+      </div>
+      <div class="content">
+        <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
+          Hai, saya <span>FARIS SYADDAD</span>
+        </h1>
+        <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+          Saya seorang <span class="typing-text"></span>
+        </div>
+        <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
+          Saya adalah seorang mahasiswa yang ingin belajar pengetahuan baru
+          dan mendapatkan pengalaman baru.
+        </p>
+        <div class="social-links">
+          <a href="https://linkedin.com/in/faris-syaddad-al-muttaqin" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/GilssUFO" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-github"></i></a>
+          <a href="https://x.com/SyaddadUFO2" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://instagram.com/sunarto.ilham" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+          <button><a href="#Contact">Hire me</a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="About" id="About">
+    <div class="content">
+      <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+          <img src="asset/main.jpg" alt="foto Faris" />
+        </div>
+        <div class="right">
+          <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">Designing is My Passion</div>
+          <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">
+            Mempelajari hal baru adalah hal yang saya sukai. Saya ingin
+            belajar lebih banyak tentang teknologi dan mengembangkan keterampilan
+          </p>
+          <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">
+            <a href="asset/cv coba.pdf"> <button>Download CV</button> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Skills</span></div>
+      <div class="skills-details">
+        <div class="text">
+          <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">Skil mencerminkan pengetahuan kita</div>
+          <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">
+            skil adalah kemampuan yang kita miliki untuk melakukan sesuatu. Semakin banyak skil yang kita miliki, semakin banyak pengetahuan yang kita dapatkan.
+          </p>
+          <div class="experience" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+            <div class="num">0</div>
+            <div class="exp">Years of Experience</div>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">HTML</div>
+            <div class="per" data-aos="zoom-in" data-aos-duration="1200"  data-aos-delay="300">90%</div>
+          </div>
+          <div class="box">
+            <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="150">CSS</div>
+            <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">80%</div>
+          </div>
+          <div class="box">
+            <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">Data Science</div>
+            <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">70%</div>
+          </div>
+          <div class="box">
+            <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="450">Python</div>
+            <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">60%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title" data-aos=""><span>My Services</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon"><i class="fas fa-desktop"></i></div>
+          <div class="topic">Web Development</div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fas fa-paint-brush"></i></div>
+          <div class="topic">Graphic Design</div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fas fa-chart-line"></i></div>
+          <div class="topic">Digital Marketing</div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fas fa-android"></i></div>
+          <div class="topic">Icon Design</div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fas fa-camera"></i></div>
+          <div class="topic">Photography</div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fas fa-tablet-alt"></i></div>
+          <div class="topic">Apps Development</div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="Contact" id="Contact">
+    <div class="content">
+      <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>Contact Me</span></div>
+      <div class="text">
+        <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Have Any Project?</div>
+        <p>Silahkan hubungi saya</p>
+        <div class="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
+          <a href="https://wa.me/628978173083">
+            <button>Let's Chat</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="text">
+      <span>
+        Created By <a href="#">Faris</a> &#169; 2025 All rights reserved
+      </span>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({offset:0});
+  </script>
+  <script>
+  const typingTexts = [
+    "Web Developer",
+    "Graphic Designer",
+    "Data Science Enthusiast",
+    "Python Programmer"
+  ];
+
+  let textIndex = 0;
+  let charIndex = 0;
+  let currentText = "";
+  let isDeleting = false;
+  const typingSpeed = 100; // kecepatan ketik
+  const deletingSpeed = 60; // kecepatan hapus
+  const delayBetweenWords = 1200; // jeda sebelum kata baru
+
+  function typeEffect() {
+    const typingElement = document.querySelector(".typing-text");
+
+    if (!isDeleting && charIndex <= typingTexts[textIndex].length) {
+      currentText = typingTexts[textIndex].substring(0, charIndex++);
+      typingElement.textContent = currentText;
+      typingElement.style.color = "#b74b4b";
+      typingElement.style.textShadow = "0 0 10px #b74b4b";
+      setTimeout(typeEffect, typingSpeed);
+    } 
+    else if (isDeleting && charIndex >= 0) {
+      currentText = typingTexts[textIndex].substring(0, charIndex--);
+      typingElement.textContent = currentText;
+      setTimeout(typeEffect, deletingSpeed);
+    } 
+    else if (!isDeleting && charIndex > typingTexts[textIndex].length) {
+      isDeleting = true;
+      setTimeout(typeEffect, delayBetweenWords);
+    } 
+    else if (isDeleting && charIndex < 0) {
+      isDeleting = false;
+      textIndex = (textIndex + 1) % typingTexts.length;
+      setTimeout(typeEffect, typingSpeed);
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", typeEffect);
+</script>
+
+</body>
+</html>
